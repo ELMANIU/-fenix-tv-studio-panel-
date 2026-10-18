@@ -1,0 +1,15 @@
+{
+  "name": "fenix-tv-panel",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-16",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "fenix-tv-cms",
+      "database_id": "PEGA_AQUI_EL_ID_D1"
+    }
+  ],
+  "vars": {
+    "INITIAL_CHANNELS_URL": "https://raw.githubusercontent.com/ELMANIU/hbo-family-worker/refs/heads/main/channels.json"
+  }
+}
