@@ -1,10 +1,8 @@
+
 {
   "name": "fenix-tv-panel",
   "main": "worker.js",
   "compatibility_date": "2026-10-16",
-
-compatibility_flags = ["global_fetch_strictly_public"]
-keep_vars = true,
   "d1_databases": [
     {
       "binding": "DB",
